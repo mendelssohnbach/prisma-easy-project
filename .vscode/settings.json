@@ -1,0 +1,120 @@
+{
+  "css.lint.unknownAtRules": "warning",
+  "debug.inlineValues": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+},
+  "editor.detectIndentation": false,
+  "editor.fontSize": 15.5,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'UDEV Gothic','Droid Sans Mono', 'monospace', monospace",
+  "editor.guides.bracketPairs": true,
+  "editor.wordWrap": "bounded",
+  "explorer.compactFolders": false,
+  "jest.autoRun": { "watch": false, "onSave": "test-file" },
+  "jest.showTerminalOnLaunch": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.wrapLineLength": 0,
+  "jest.coverageFormatter": "GutterFormatter",
+  "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown", "pass", "skip"],
+  "liveServer.settings.fullReload": true,
+  "terminal.integrated.copyOnSelection": true,
+  "typescript.locale": "en",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Soft",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.css": "tailwindcss"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+    "javascript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[astro]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.colorDecorators": true
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+    "inlineFold.regex": "class=\"([\\w\\s. -:\\[\\]]+)\"",
+    "inlineFold.regexFlags": "g",
+    "inlineFold.regexGroup": 1
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": false
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.colorDecorators": true
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[react]": {
+    "inlineFold.regex": "(className)=(({(`|))|(['\"`]))(.*?)(\\2|(\\4))",
+    "inlineFold.regexFlags": "g",
+    "inlineFold.regexGroup": 6
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cSpell.words": ["tailwind"]
+}
